@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Dudas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sección de Dudas</h1>
+        
+        <div class="dudas-form">
+            <label for="curso">Selecciona tu curso:</label>
+            <select id="curso">
+                <option value="">Selecciona un curso</option>
+                <option value="1">1ero</option>
+                <option value="2">2do</option>
+                <option value="3">3ro</option>
+                <option value="4">4to</option>
+                <option value="5">5to</option>
+                <option value="6">6to</option>
+            </select>
+
+            <label for="duda">Escribe tu duda:</label>
+            <textarea id="duda" rows="4" placeholder="Escribe aquí tu duda..."></textarea>
+
+            <button id="enviar-duda">Enviar Duda</button>
+        </div>
+
+        <div id="dudas-lista">
+            <h2>Dudas Enviadas</h2>
+            <!-- Las dudas se mostrarán aquí -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
